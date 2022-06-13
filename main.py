@@ -3,7 +3,7 @@ from blog import Models
 from db.database import engine, get_db
 from routes import blog, user, auth
 import os
-from utils.emails import send_email_background,send_email_async
+from utils.emails import send_email_async
 
 
 app = FastAPI()

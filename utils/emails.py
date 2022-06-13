@@ -7,7 +7,7 @@ async def send_email_async(subject: str, email_to: str):
         MAIL_PASSWORD="",
         MAIL_FROM="",
         MAIL_PORT=465,
-        MAIL_SERVER="",
+        MAIL_SERVER="y",
         MAIL_TLS=False,
         MAIL_SSL=True,
         USE_CREDENTIALS=True,
